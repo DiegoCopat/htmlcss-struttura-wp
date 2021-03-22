@@ -50,6 +50,12 @@
     text-decoration: none;
     color: gray;
 }
+#nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: red;
+    font-size: 18px;
+}
 #header-1 img{
     width: 100px;
 }
