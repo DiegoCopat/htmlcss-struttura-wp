@@ -11,7 +11,7 @@
 }
 
 .main {
-    height: 350px;
+    /* height: 400px; */
     float: left;
 }
 
@@ -25,11 +25,11 @@
     margin-top: 2%;
 }
 
-.bk-blu {
+/* .bk-blu {
     background-color: #ABCFE7;
 }
 .bd-blu {
-    border-bottom: 15px solid #0882F3;
+    border-bottom: 15px solid #0882F3; */
 }
 /* css header */
 
@@ -50,7 +50,9 @@
     text-decoration: none;
     color: gray;
 }
-
+#header-1 img{
+    width: 100px;
+}
 #header-2 {
     height: 400px;
     background-image: url(../img/banner.jpg);
@@ -93,8 +95,8 @@
 
 #center-main {
     width: 60%;
-    border-left: 15px solid #0882F3;
-    border-right: 15px solid #0882F3;
+    margin: auto;
+    padding: 0 15px;
 }
 #img-center {
     background-image: url(../img/banner-2.jpg);
@@ -118,6 +120,10 @@ footer> section {
 
 .filtro-img {
     height: 100%;
-    background-color: rgba(158, 46, 46, 0.3);
+    background-color: rgba(158, 46, 46, 0.2);
     border-radius: 10px;
+}
+
+h3 {
+    padding-bottom: 5px;
 }
